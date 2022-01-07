@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/drawable-v24/no_button.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/drawable/btn_filter_shape.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/drawable/edit_txt_shape.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/drawable/green_star.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/drawable/ic_baseline_filter_list_24.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/drawable/red_dot.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/drawable/yellow_dot.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/drawable/yes_button.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/layout/btn_filter_shape.xml" value="0.11322188449848024" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/layout/dialog_delete.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/layout/fragment_create_notes.xml" value="0.2" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/layout/fragment_edit_notes.xml" value="0.1" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/priya/Desktop/GITHUB/studious-octo-cat/QuickNotes/app/src/main/res/layout/item_notes.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

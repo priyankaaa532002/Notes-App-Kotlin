@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.quicknotes.ui.Fragments.HomeFragment"
+        android:label="Quick Notes"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_editNotesFragment"
+            app:destination="@id/editNotesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_createNotesFragment"
+            app:destination="@id/createNotesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNotesFragment"
+        android:name="com.example.quicknotes.ui.Fragments.CreateNotesFragment"
+        android:label="Add New Notes"
+        tools:layout="@layout/fragment_create_notes" >
+        <action
+            android:id="@+id/action_createNotesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editNotesFragment"
+        android:name="com.example.quicknotes.ui.Fragments.EditNotesFragment"
+        android:label="Edit Notes"
+        tools:layout="@layout/fragment_edit_notes" >
+        <action
+            android:id="@+id/action_editNotesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="data"
+            app:argType="com.example.quicknotes.Model.Notes" />
+    </fragment>
+</navigation>
