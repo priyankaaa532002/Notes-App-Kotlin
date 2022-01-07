@@ -90,7 +90,7 @@ class EditNotesFragment : Fragment() {
         val data = Notes(oldNotes.data.id,title,subTitle,notes,notesDate.toString(),priority)
         viewModel.updateNotes(data)
 
-        Toast.makeText(requireContext(),"Notes updated successfully", Toast.LENGTH_SHORT).show()
+        Toast.makeText(requireContext(),"Note updated successfully", Toast.LENGTH_SHORT).show()
 
         //end karne ke liye
         Navigation.findNavController(it!!).navigate(R.id.action_editNotesFragment_to_homeFragment)

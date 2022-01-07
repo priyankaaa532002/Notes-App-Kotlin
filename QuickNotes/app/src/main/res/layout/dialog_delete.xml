@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:gravity="center"
+        android:textColor="@color/white"
         android:text="Are you sure you want to\ndelete this Note?"
         android:textSize="18sp"/>
 

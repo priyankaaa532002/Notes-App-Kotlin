@@ -10,8 +10,16 @@ import com.example.quicknotes.R
 import com.example.quicknotes.databinding.ItemNotesBinding
 import com.example.quicknotes.ui.Fragments.HomeFragmentDirections
 
-class NotesAdapter(val requireContext: Context, val notesList: List<Notes>) :RecyclerView.Adapter<NotesAdapter.notesViewHolder>() {
+class NotesAdapter(val requireContext: Context, var notesList: List<Notes>) :RecyclerView.Adapter<NotesAdapter.notesViewHolder>() {
                     //Contructor
+
+
+    //search ke liye filter
+    fun filtering(newFilteredList:ArrayList<Notes>){
+        notesList=newFilteredList
+        notifyDataSetChanged()
+    }
+
     class notesViewHolder(val binding : ItemNotesBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): notesViewHolder {

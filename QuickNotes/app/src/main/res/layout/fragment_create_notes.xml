@@ -27,7 +27,8 @@
             />
 
         <EditText
-            android:id="@+id/et_subtitle"
+            android:id="@+id/et_notes"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Sub Title..."
@@ -46,30 +47,30 @@
 
             <ImageView
                 android:id="@+id/p_red"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:background="@drawable/red_dot"/>
 
             <ImageView
                 android:id="@+id/p_yellow"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginStart="20dp"
                 android:background="@drawable/yellow_dot"/>
 
             <ImageView
                 android:id="@+id/p_green"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginStart="20dp"
                 android:background="@drawable/green_dot"/>
 
         </LinearLayout>
 
         <EditText
-            android:id="@+id/et_notes"
+            android:id="@+id/et_subtitle"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="400dp"
             android:hint="Notes..."
             android:gravity="start"
             android:background="@drawable/edit_txt_shape"
