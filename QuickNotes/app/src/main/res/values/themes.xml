@@ -17,4 +17,12 @@
     <style name="ProgressBar">
         <item name="colorSecondary">@color/purple</item>
     </style>
+
+    <style name="BottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Model</item>
+    </style>
+
+    <style name="Model" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/delte_sheet</item>
+    </style>
 </resources>
